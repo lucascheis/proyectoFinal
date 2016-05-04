@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre "
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:hint="Edad"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtposicion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="15dip"
+        android:hint="Posicion"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtAltura"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="0dip"
+        android:hint="Altura"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="Agregar" />
+
+
+
+    <TextView
+        android:id="@+id/register_error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:layout_marginTop="40dip"
+
+        android:gravity="center"
+        android:textColor="#0b84aa"
+        android:textSize="20dip" />
+
+
+</LinearLayout>
